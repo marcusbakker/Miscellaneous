@@ -1,0 +1,33 @@
+﻿Software;Command;OS version;JA3
+PowerShell 4.0;Invoke-WebRequest https://[domain];Windows Server 2012RT;13cc575f247730d3eeb8ff01e76b245f
+PowerShell 4.0;Invoke-WebRequest https://[IP];Windows Server 2012RT;5e12c14bda47ac941fc4e8e80d0e536f
+PowerShell 4.0;PowerShell empire oneliner using System.Net.WebClient;Windows Server 2012RT;5e12c14bda47ac941fc4e8e80d0e536f
+BitsAdmin;bitsadmin /transfer debjob /download /priority normal https://[domain]/ c:\Users\Administrator\temp;Windows Server 2012RT;2c14bfb3f8a2067fbc88d8345e9f97f3
+BitsAdmin;bitsadmin /transfer debjob /download /priority normal https://[IP]/ c:\Users\Administrator\temp;Windows Server 2012RT;613e01474d42ebe48ef52dff6a20f079
+PowerShell 4.0;"$wc.DownloadString(""https://[domain]/"")";Windows Server 2012RT;13cc575f247730d3eeb8ff01e76b245f
+PowerShell 4.0;"$wc.DownloadString(""https://[IP]/"")";Windows Server 2012RT;5e12c14bda47ac941fc4e8e80d0e536f
+PowerShell 6.0;Invoke-WebRequest https://[domain];Windows Server 2012RT;2c14bfb3f8a2067fbc88d8345e9f97f3
+PowerShell 6.0;Invoke-WebRequest https://[IP];Windows Server 2012RT;613e01474d42ebe48ef52dff6a20f079
+PowerShell 5.0 (System.Net.WebClient);"$wc.DownloadString(""https://[domain]/"")";Windows Server 2012RT;2c14bfb3f8a2067fbc88d8345e9f97f3
+PowerShell 5.0 (System.Net.WebClient);"$wc.DownloadString(""https://[IP]/"")";Windows Server 2012RT;613e01474d42ebe48ef52dff6a20f079
+PowerShell 5.0;Invoke-WebRequest https://[domain];Windows 7 64 bit enterprise;05af1f5ca1b87cc9cc9b25185115607d
+PowerShell 5.0;Invoke-WebRequest https://[IP];Windows 7 64 bit enterprise;8c4a22651d328568ec66382a84fc505f
+PowerShell 5.0 (System.Net.WebClient);"$wc.DownloadString(""https://[domain]/"")";Windows 7 64 bit enterprise;05af1f5ca1b87cc9cc9b25185115607d
+PowerShell 5.0 (System.Net.WebClient);"$wc.DownloadString(""https://[IP]/"")";Windows 7 64 bit enterprise;8c4a22651d328568ec66382a84fc505f
+BitsAdmin;bitsadmin /transfer debjob /download /priority normal https://[domain]/ c:\Users\Administrator\temp;Windows 7 64 bit enterprise;05af1f5ca1b87cc9cc9b25185115607d
+BitsAdmin;bitsadmin /transfer debjob /download /priority normal https://[IP]/ c:\Users\Administrator\temp;Windows 7 64 bit enterprise;8c4a22651d328568ec66382a84fc505f
+PowerShell 5.1;Invoke-WebRequest https://[domain];Server 2016;235a856727c14dba889ddee0a38dd2f2
+PowerShell 5.1;Invoke-WebRequest https://[IP];Server 2016;17b69de9188f4c205a00fe5ae9c1151f
+BitsAdmin (Microsoft BITS/7.8);bitsadmin /transfer debjob /download /priority normal https://[domain]/ c:\Users\Administrator\temp;Server 2016;d0ec4b50a944b182fc10ff51f883ccf7
+BitsAdmin (Microsoft BITS/7.8);bitsadmin /transfer debjob /download /priority normal https://[IP]/ c:\Users\Administrator\temp;Server 2016;294b2f1dc22c6e6c3231d2fe311d504b
+BitsAdmin (Microsoft BITS/7.5);bitsadmin /transfer debjob /download /priority normal https://[IP]/ c:\Users\Administrator\temp;Server 2016;8c4a22651d328568ec66382a84fc505f
+PowerShell 5.1;"$wc.DownloadString(""https://[domain]/"")";Server 2016;235a856727c14dba889ddee0a38dd2f2
+PowerShell 5.1;"$wc.DownloadString(""https://[IP]/"")";Server 2016;17b69de9188f4c205a00fe5ae9c1151f
+PowerShell 5.1;Invoke-WebRequest https://[domain];Windows 10;54328bd36c14bd82ddaa0c04b25ed9ad
+PowerShell 5.1;Invoke-WebRequest https://[IP];Windows 10;fc54e0d16d9764783542f0146a98b300
+PowerShell 4.0;Invoke-WebRequest https://[domain];Windows 7 32 bit enterprise;05af1f5ca1b87cc9cc9b25185115607d
+PowerShell 4.0;Invoke-WebRequest https://[IP];Windows 7 32 bit enterprise;8c4a22651d328568ec66382a84fc505f
+PowerShell 6.0;"Invoke-WebRequest -uri ""https://[domain]"" -sslprotocol tls";Windows Server 2012RT;2863b3a96f1b530bc4f5e52f66c79285
+PowerShell 6.0;"Invoke-WebRequest -uri ""https://[domain]"" -sslprotocol tls11";Windows Server 2012RT;40177d2da2d0f3a9014e7c83bdeee15a
+BitsAdmin;bitsadmin /transfer debjob /download /priority normal https://[domain]/ c:\Users\Administrator\temp;Windows 7 32 bit enterprise;36f7277af969a6947a61ae0b815907a1
+PowerShell 6.0;Invoke-WebRequest https://[domain];Windows 7 64 bit enterprise;36f7277af969a6947a61ae0b815907a1
